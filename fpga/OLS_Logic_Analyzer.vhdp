@@ -1,0 +1,28 @@
+Main
+(
+    RX   : IN  STD_LOGIC;
+    TX   : OUT STD_LOGIC;
+    
+    GPIO : INOUT STD_LOGIC_VECTOR(31 downto 0);
+)
+{
+    NewComponent la
+    (
+        FREQ        => 100000000,
+        TRXSCALE    => 28,
+        RATE        => 115200,
+
+        resetSwitch => '0',
+        xtalClock   => CLK,
+        exClock     => CLK,
+        dataInput   => GPIO,
+        rx          => RX,
+        speedSwitch => "00", --LL = 115200, LH = 57600, HL = 38400, HH = 19200
+        --ready50     => 
+        tx          => TX,
+        --clock       =>
+        --trxClock    =>
+        --cmd         =>
+        --execute     =>
+    );
+}

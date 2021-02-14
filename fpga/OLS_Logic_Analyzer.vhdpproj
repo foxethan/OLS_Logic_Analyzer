@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<ProjectRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Header>OLS_Logic_Analyzer</Header>
+  <Items xsi:type="ProjectFolder">
+    <Header>Generated</Header>
+    <Items xsi:type="ProjectFileVHDL">
+      <Header>OLS_Logic_Analyzer.vhd</Header>
+    </Items>
+  </Items>
+  <Items xsi:type="ProjectFolder">
+    <Header>Import</Header>
+    <Items xsi:type="ProjectFileVerilog">
+      <Header>clockman1.v</Header>
+    </Items>
+    <Items xsi:type="ProjectFileVerilog">
+      <Header>controller.v</Header>
+    </Items>
+    <Items xsi:type="ProjectFileVerilog">
+      <Header>core.v</Header>
+    </Items>
+    <Items xsi:type="ProjectFileVerilog">
+      <Header>decoder.v</Header>
+    </Items>
+    <Items xsi:type="ProjectFileVerilog">
+      <Header>demux.v</Header>
+    </Items>
+    <Items xsi:type="ProjectFileVerilog">
+      <Header>eia232.v</Header>
+    </Items>
+    <Items xsi:type="ProjectFileVerilog">
+      <Header>filter.v</Header>
+    </Items>
+    <Items xsi:type="ProjectFileVerilog">
+      <Header>flags.v</Header>
+    </Items>
+    <Items xsi:type="ProjectFileVerilog">
+      <Header>la.v</Header>
+    </Items>
+    <Items xsi:type="ProjectFileVerilog">
+      <Header>la_DE2.v</Header>
+    </Items>
+    <Items xsi:type="ProjectFileVerilog">
+      <Header>m4kRAM32x8k.v</Header>
+    </Items>
+    <Items xsi:type="ProjectFileVerilog">
+      <Header>m4kram.v</Header>
+    </Items>
+    <Items xsi:type="ProjectFileVerilog">
+      <Header>prescaler.v</Header>
+    </Items>
+    <Items xsi:type="ProjectFileVerilog">
+      <Header>receiver.v</Header>
+    </Items>
+    <Items xsi:type="ProjectFileVerilog">
+      <Header>sampler.v</Header>
+    </Items>
+    <Items xsi:type="ProjectFileVerilog">
+      <Header>stage.v</Header>
+    </Items>
+    <Items xsi:type="ProjectFileVerilog">
+      <Header>sync.v</Header>
+    </Items>
+    <Items xsi:type="ProjectFileVerilog">
+      <Header>transmitter.v</Header>
+    </Items>
+    <Items xsi:type="ProjectFileVerilog">
+      <Header>trigger.v</Header>
+    </Items>
+  </Items>
+  <Items xsi:type="ProjectFileVHDP">
+    <Header>OLS_Logic_Analyzer.vhdp</Header>
+  </Items>
+  <CruviHSExtensions>
+    <string xsi:nil="true" />
+  </CruviHSExtensions>
+  <CruviLSExtensions>
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+  </CruviLSExtensions>
+  <IOVoltage>0</IOVoltage>
+  <UseShield>false</UseShield>
+</ProjectRoot>
