@@ -1,9 +1,11 @@
 Main
 (
-    RX   : IN  STD_LOGIC;
-    TX   : OUT STD_LOGIC;
+    RX      : IN  STD_LOGIC;
+    TX      : OUT STD_LOGIC;
     
-    GPIO : INOUT STD_LOGIC_VECTOR(31 downto 0);
+    GPIO    : INOUT STD_LOGIC_VECTOR(31 downto 0);
+    
+    EXT_CLK : IN  STD_LOGIC;
 )
 {
     NewComponent la
@@ -14,7 +16,7 @@ Main
 
         resetSwitch => '0',
         xtalClock   => CLK,
-        exClock     => CLK,
+        exClock     => EXT_CLK,
         dataInput   => GPIO,
         rx          => RX,
         speedSwitch => "00", --LL = 115200, LH = 57600, HL = 38400, HH = 19200
@@ -22,7 +24,7 @@ Main
         tx          => TX,
         --clock       =>
         --trxClock    =>
-        --cmd         =>
-        --execute     =>
+        --cmd         => cmd,
+        --execute     => execute,
     );
 }

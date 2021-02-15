@@ -67,6 +67,18 @@
       <Header>trigger.v</Header>
     </Items>
   </Items>
+  <Items xsi:type="ProjectFolder">
+    <Header>Libraries</Header>
+    <Items xsi:type="ProjectFolder">
+      <Header>ISSP</Header>
+      <Items xsi:type="ProjectFile">
+        <Header>ISSP.qsys</Header>
+      </Items>
+      <Items xsi:type="ProjectFileVHDP">
+        <Header>ISSP.qsys.vhdp</Header>
+      </Items>
+    </Items>
+  </Items>
   <Items xsi:type="ProjectFileVHDP">
     <Header>OLS_Logic_Analyzer.vhdp</Header>
   </Items>
@@ -74,11 +86,11 @@
     <string xsi:nil="true" />
   </CruviHSExtensions>
   <CruviLSExtensions>
-    <string xsi:nil="true" />
-    <string xsi:nil="true" />
-    <string xsi:nil="true" />
-    <string xsi:nil="true" />
+    <string>LevelShifterExtension</string>
+    <string>LevelShifterExtension</string>
+    <string>LevelShifterExtension</string>
+    <string>LevelShifterExtension</string>
   </CruviLSExtensions>
   <IOVoltage>0</IOVoltage>
-  <UseShield>false</UseShield>
+  <UseShield>true</UseShield>
 </ProjectRoot>
