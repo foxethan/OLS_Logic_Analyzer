@@ -22,8 +22,8 @@ Main
         speedSwitch => "00", --LL = 115200, LH = 57600, HL = 38400, HH = 19200
         --ready50     => 
         tx          => TX,
-        --clock       =>
-        --trxClock    =>
+        --clock       => 
+        --trxClock    => 
         --cmd         => cmd,
         --execute     => execute,
     );
